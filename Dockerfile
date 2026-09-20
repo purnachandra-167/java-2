@@ -8,4 +8,4 @@ RUN ls -ltr
 
 RUN  mvn package
 RUN ls -ltR
-CMD [java -jar target/order-service-0.0.1-SNAPSHOT.jar]
+CMD [java -jar /app/java/server/target/server.jar]
